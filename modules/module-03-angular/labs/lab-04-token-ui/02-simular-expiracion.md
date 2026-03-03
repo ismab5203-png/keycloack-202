@@ -143,7 +143,7 @@ Ya sabemos:
 
 # codigo con observables para validar refresco en tiempo real
 
-'''
+```typescript
 
 
 import { AsyncPipe, CommonModule } from '@angular/common';
@@ -183,4 +183,4 @@ secondsRemaining$ = interval(1000).pipe(
   );
 
 }
-'''
+```
